@@ -22,8 +22,9 @@ body {
   /*  background-image: linear-gradient(to right, $bgGradientVeryLightRed, $bgGradientlightRed); */
   background: url(../images/bg-pattern-intro.svg) no-repeat, -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
   background: url(../images/bg-pattern-intro.svg) no-repeat, linear-gradient(to right, #ff8f70, #ff3d54);
+  background-position: 30% 51%;
   padding: 2rem 6rem 6rem;
-  border-bottom-left-radius: 48px;
+  border-bottom-left-radius: 70px;
 }
 
 .headSection nav {
@@ -204,7 +205,7 @@ body {
   background-position: -30% 80%;
   background-size: 60%;
   height: 400px;
-  border-top-right-radius: 48px;
+  border-top-right-radius: 70px;
 }
 
 .phoneSection .containerPhone {
@@ -214,7 +215,7 @@ body {
   padding-left: 4rem;
 }
 
-.phoneSection .containerPhone .wrapperPhone {
+.phoneSection .containerPhone .wrapperPhoneIllustration {
   width: 40vw;
   position: relative;
   bottom: 4rem;
@@ -237,8 +238,43 @@ body {
   width: 85%;
 }
 
+.laptopSection {
+  margin: 10rem auto 20rem;
+}
+
+.laptopSection .containerLaptop .containerLaptopChild1 {
+  width: 40vw;
+  float: left;
+  position: relative;
+  right: 17rem;
+}
+
+.laptopSection .containerLaptop .containerLaptopChild2 {
+  margin-left: 46vw;
+  padding-top: 10rem;
+}
+
+.laptopSection .containerLaptop .containerLaptopChild2 #secondHeading {
+  margin-top: 3rem;
+}
+
+.laptopSection .containerLaptop .containerLaptopChild2 p {
+  width: 63%;
+  line-height: 150%;
+}
+
 footer {
-  padding: 2rem 6rem 6rem;
+  padding: 4rem 7rem 6rem;
   background-color: #000;
+  border-top-right-radius: 70px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
