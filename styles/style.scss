@@ -23,6 +23,8 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
+    background-color: black;
+    color: white;
     a {
         color: hsl(228, 45%, 44%);
       }
@@ -284,15 +286,42 @@ footer {
     padding: 4rem 7rem 6rem;
     background-color: #000;
     border-top-right-radius: 70px;
+    box-sizing: border-box;
 
-    ul {
-        list-style: none;
+    .footer-container {
+        margin: auto;
 
-        li {
+        .row {
+            display: flex;
+            flex-wrap: wrap;
 
-            a {
-                text-decoration: none;
-                color: white;
+            .footer-col{
+                width: 20%;
+                padding-left: 7vw;
+
+                h4 {
+                    margin-top: 1rem;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+
+                    li {
+                        padding-top: 10px;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+
+                }
+    
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+    
             }
         }
     }
